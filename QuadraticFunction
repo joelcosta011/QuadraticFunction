@@ -1,0 +1,14 @@
+// Please write your code after this line
+
+IO.output("Enter a: ");
+double a = IO.inputDouble();
+IO.output("Enter b: ");
+double b = IO.inputDouble();
+IO.output("Enter c: ");
+double c = IO.inputDouble();
+double first_x = 0;
+first_x = (-b + (Math.sqrt((b*b - ((4 * a * c))))))/ (2 * a);
+double second_x = 0;
+second_x = (-b - (Math.sqrt((b*b - ((4*a*c))))))/ (2 * a);
+IO.outputln("First solution for x = "+first_x);
+IO.outputln("Second solution for x = "+second_x);  
